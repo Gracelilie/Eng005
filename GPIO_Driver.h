@@ -2,11 +2,11 @@
 /*
  * GPIO_Driver.h
  *
- *  Created on: Sep 2, 2024
- *      Author: naher
+ *  Created on: Sep 18, 2024
+ *      Author: GRACE-LILIE ACHEAMPONG
  */
 
-#ifndef GPIO_DRIVER_H_
+#defINE GPIO_DRIVER_H_
 #define GPIO_DRIVER_H_
 void gpioInitIn(unsigned int Port, unsigned char Pin);
 void gpioInitOut(unsigned int Port, unsigned char Pin);
