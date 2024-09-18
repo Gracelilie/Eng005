@@ -6,7 +6,7 @@
  *      Author: GRACE-LILIE ACHEAMPONG
  */
 
-#defINE GPIO_DRIVER_H_
+#define GPIO_DRIVER_H_
 #define GPIO_DRIVER_H_
 void gpioInitIn(unsigned int Port, unsigned char Pin);
 void gpioInitOut(unsigned int Port, unsigned char Pin);
