@@ -23,3 +23,13 @@ To enhance code clarity and organization, functions were introduced into the LED
 
 ### Dependencies
 This project depends on the `msp430.h` library for accessing the MSP430 microcontroller's functionalities. For proper compilation and execution of the code, include this library
+
+### Input and Output
+**Inputs:**
+
+BUTTON1 (P4.1): Press to toggle the RED LED.
+BUTTON2 (P2.3): Press to toggle the GREEN LED.
+**Outputs:**
+
+RED LED (P1.0): Toggles on/off based on BUTTON1 press.
+GREEN LED (P6.6): Toggle on/off with BUTTON2 pressed.
